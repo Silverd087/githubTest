@@ -1,0 +1,9 @@
+name: Hello CI
+on: [push]
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: say hello
+      run: echo "Hello CI"
+  
